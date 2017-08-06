@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Hidden_Tests' do
+  pod 'Hidden', :path => '../'
+  
+  
+end

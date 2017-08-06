@@ -1,0 +1,22 @@
+{
+  "name": "Hidden",
+  "version": "0.1.0",
+  "summary": "A short description of Hidden.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/buribae/Hidden",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "buribae": "buribae@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/buribae/Hidden.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Hidden/Classes/**/*"
+}

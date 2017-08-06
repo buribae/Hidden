@@ -1,0 +1,16 @@
+PODS:
+  - Hidden (0.1.0)
+
+DEPENDENCIES:
+  - Hidden (from `../`)
+
+EXTERNAL SOURCES:
+  Hidden:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Hidden: c8041e1ce195f59e6b3886d3204dc70d54fed189
+
+PODFILE CHECKSUM: b8564a2acb2c6b4f79ec7a12b714a1332e12524a
+
+COCOAPODS: 1.2.1
