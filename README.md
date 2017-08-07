@@ -5,11 +5,45 @@
 [![License](https://img.shields.io/cocoapods/l/Hidden.svg?style=flat)](http://cocoapods.org/pods/Hidden)
 [![Platform](https://img.shields.io/cocoapods/p/Hidden.svg?style=flat)](http://cocoapods.org/pods/Hidden)
 
+Hide and show views easily in Swift. Traditional way of setting isHidden individually is not only tedious but counterintuitive.
+
+## Usage
+
+Do this.
+
+```swift
+import Hidden
+
+if !isDateHidden {
+	show(dateLabel, contentLabel)
+	hide(contentTextView)
+} else {
+	hide(dateLabel, contentLabel)
+	show(contentTextView)
+}
+```
+
+instead
+
+```swift
+if !isDateHidden {
+	dateLabel.isHidden = false
+	contentLabel.isHidden = false
+	contentTextView.isHidden = true
+} else {
+	dateLabel.isHidden = true
+	contentLabel.isHidden = true
+	contentTextView.isHidden = false
+}
+```
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* Swift 3.0+
+* iOS 8 or later
 
 ## Installation
 
