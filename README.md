@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/Hidden.svg?style=flat)](http://cocoapods.org/pods/Hidden)
 [![Platform](https://img.shields.io/cocoapods/p/Hidden.svg?style=flat)](http://cocoapods.org/pods/Hidden)
 
-An UIView extension to hide and show views easily in Swift. Traditional way of setting isHidden individually is not only tedious but counterintuitive.
+A UIView extension to hide and show views easily in Swift. Traditional way of setting isHidden individually is not only tedious but counterintuitive.
 
 ## Usage
 
