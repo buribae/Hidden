@@ -1,9 +1,9 @@
 # Hidden
 
-[![CI Status](http://img.shields.io/travis/buribae/Hidden.svg?style=flat)](https://travis-ci.org/buribae/Hidden)
 [![Version](https://img.shields.io/cocoapods/v/Hidden.svg?style=flat)](http://cocoapods.org/pods/Hidden)
 [![License](https://img.shields.io/cocoapods/l/Hidden.svg?style=flat)](http://cocoapods.org/pods/Hidden)
 [![Platform](https://img.shields.io/cocoapods/p/Hidden.svg?style=flat)](http://cocoapods.org/pods/Hidden)
+[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 
 A UIView extension to hide and show views easily in Swift. Traditional way of setting isHidden individually is not only tedious but counterintuitive.
 
